@@ -1,0 +1,13 @@
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+
+# Supabase local files
+supabase/.branches/
+supabase/.temp/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
